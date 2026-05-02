@@ -15,14 +15,14 @@ Write commit messages terse and exact. Conventional Commits format. No fluff. Wh
 - `<type>(<scope>): <imperative summary>` — `<scope>` optional
 - Types: `feat`, `fix`, `refactor`, `perf`, `docs`, `test`, `chore`, `build`, `ci`, `style`, `revert`
 - Imperative mood: "add", "fix", "remove" — not "added", "adds", "adding"
-- ≤50 chars when possible, hard cap 72
+- ≤50 chars when possible, hard cap 71
 - No trailing period
 - Match project convention for capitalization after the colon
 
 **Body (only if needed):**
 - Skip entirely when subject is self-explanatory
 - Add body only for: non-obvious *why*, breaking changes, migration notes, linked issues
-- Wrap at 72 chars
+- Wrap at ≤71 chars, prefer natural points: sentences/clauses/phrases
 - Bullets `-` not `*`
 - Reference issues/PRs at end: `Closes #42`, `Refs #17`
 
